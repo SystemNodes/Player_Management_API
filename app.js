@@ -6,9 +6,14 @@ const PORT = 1900;
 app.use(express.json());
 
 // routers
-const router = require("./Routers/appRouters");
+const router = require("./Routers/playerRouter");
 app.use(router);
+const statsRouter = require('./Routers/statsRouter');
+app.use(statsRouter);
 
 app.listen(PORT, () => {
     console.log(`My server is running on port: ${PORT}`);
 });
+
+
+

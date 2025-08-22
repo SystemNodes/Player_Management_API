@@ -5,7 +5,7 @@ const {
     eachPlayer, 
     updatePlayer,
     deletePlayer
-} = require('../Controllers/appControllers');
+} = require('../Controllers/playerController');
 
 router.post('/player', createPlayer)
 router.get('/player', allPlayer)
