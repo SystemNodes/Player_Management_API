@@ -48,5 +48,5 @@ It supports **CRUD operations** such as creating, retrieving, updating, and dele
 
 - [Node.js](https://nodejs.org/) – JavaScript runtime  
 - [Express](https://expressjs.com/) – Web framework  
-- [Sequelize](https://sequelize.org/) – ORM for SQL databases  
-- [MySQL](https://www.mysql.com/) (or PostgreSQL/SQLite) – Database  
+- [Sequelize](https://sequelize.org/) – ORM for SQL databases 
+- [MySQL](https://www.mysql.com/) (or PostgreSQL/SQLite) – Database
